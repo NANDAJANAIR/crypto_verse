@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.css';
 import Button from '../../Common/Button';
-import iphone from '../../../assets/img1.jpg'
+import iphone from '../../../assets/bitp.png'
 // import gradient from '../../../assets/img2.jpg';
 import { motion } from 'framer-motion';
 
@@ -36,14 +36,24 @@ function MainComponent() {
       </div>
       <div className='rightArea'>
         <motion.img className='phone' src={iphone} alt='phoneImg'
-        initial={{y:-10}}
-        animate={{y:10}}
+        initial={{y:-40,rotate:0}}
+        animate={{y:150,rotate:180}}
         transition={{
         type:"smooth",
         repeatType:"mirror",
         duration:2,
         repeat:Infinity}} />
-        <div className='gradient'></div>
+
+        <motion.img className='phone2' src={iphone} alt='phoneImg'
+        initial={{y:-40,rotate:0}}
+        animate={{y:150,rotate:180}}
+        transition={{
+        type:"smooth",
+        repeatType:"mirror",
+        duration:2,
+        repeat:Infinity}} />
+        
+        
       </div>
     </div>
   )

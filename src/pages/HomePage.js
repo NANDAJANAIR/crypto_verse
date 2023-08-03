@@ -3,10 +3,12 @@ import Header from '../components/Common/Header'
 import MainComponent from '../components/LandingPage/MainComponent'
 import Footer from '../components/Common/Footer';
 import dashboarimg from '../assets/crypto1.png';
-import coinPageimg from '../assets/CRYPTO2.png';
-import comparePageimg  from '../assets/crypto3.png';
-import watchlistPageimg  from '../assets/crypto4.png';
+import coinPageimg from '../assets/COSMOS.png';
+import comparePageimg  from '../assets/cryptoman.png';
+import watchlistPageimg  from '../assets/black1.png';
+import coinsfalling from '../assets/coinieee.png';
 import AppDetails from '../components/LandingPage/AppDetails';
+import Carousel from '../components/Carousel';
 
 
 
@@ -19,10 +21,16 @@ function HomePage() {
     <div>
       <Header/>
       <MainComponent/>
-      <AppDetails img={dashboarimg} heading={"Real-time Crypto Tracking"} Description={"Stay up-to-date with the ever-changing crypto market. Our application allows you to effortlessly track various cryptocurrencies in real-time, providing you with accurate and timely data on their current prices, market cap, volume, and more."} margin={window.screen.width < 1020?"30rem":"20rem"} align/>
-      <AppDetails img={coinPageimg} heading={"Interactive Historical Charts"} Description={"Dive into the past performance of your favorite cryptocurrencies. With our interactive historical charts, you can analyze price trends, trading volumes, and market fluctuations over specific time periods, empowering you to make informed investment decisions."} margin={"5rem"} align={window.screen.width < 800?true:false}/>
-      <AppDetails img={comparePageimg} heading={"Seamless Coin Comparison"} Description={"Make smarter investment choices with our intuitive coin comparison feature. Effortlessly compare two cryptocurrencies side-by-side using their chart data, enabling you to spot trends, differences, and potential opportunities."} margin={"5rem"} align/>
-      <AppDetails img={watchlistPageimg} heading={"Personalized Watchlist"} Description={"Create your customized crypto watchlist with ease. Mark your favorite coins, and quickly access their real-time data at a glance. Stay ahead of the game by monitoring your preferred cryptocurrencies all in one place."} margin={"5rem"} align={window.screen.width < 800?true:false}/>
+      <img className="mainsection" src={coinPageimg}></img>
+      <Carousel/>
+      <section className="mainsection">
+      <img className="mainsection" src ={comparePageimg}></img>
+      </section>
+      <section className="mainsection">
+      <img className="mainsection" src={comparePageimg}></img>
+      </section>
+      <img className="mainsection" src={coinsfalling}></img>
+
       <Footer/>
     </div>
   )

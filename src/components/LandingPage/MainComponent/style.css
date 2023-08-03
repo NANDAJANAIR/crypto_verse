@@ -8,10 +8,11 @@
     padding-left: 3rem;
     margin-top: 2rem;
     font-family: sans-serif;
+    height: 80vh;
 }
 
 .leftArea{
-    width: 60%;
+    width: 40%;
 }
 
 .crypto-heading,.realTime-heading{
@@ -44,15 +45,19 @@
 }
 
 .rightArea{
-    width: 40%;
+    width: 60%;
     position: relative;
 }
 
 .phone{
-    width: 265px;
+    width: 400px;
     position: absolute;
     z-index: 1;
     border-radius: 2.5rem;
+    margin-left: 80px;
+}
+.phone2{
+    margin-left: 200px;;
 }
 .gradient{
     width: 275px;
