@@ -1,0 +1,26 @@
+.selectDays{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    /* margin-bottom: 1rem; */
+}
+
+@media screen and (max-width:600px) {
+    .pTag{
+        font-size: 0.75rem;
+    }
+    .daySelector{
+        height: 1.5rem !important;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .pTag{
+        font-size: 0.6rem !important;
+    }
+    .daySelector{
+        height: 1.25rem !important;
+        font-size: 0.75rem !important;
+    }
+}
