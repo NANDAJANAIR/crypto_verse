@@ -12,13 +12,13 @@ function MainComponent() {
         <motion.h1 className='crypto-heading'
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{type:"smooth", duration: 0.5 }}
+          transition={{type:"smooth", duration: 0.2 }}
         ></motion.h1>
         <motion.h1 className='realTime-heading'
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{type:"smooth", duration: 0.5 ,delay:0.5}}
-        >Real Time</motion.h1>
+        transition={{type:"smooth", duration: 0.3 ,delay:0.3}}
+        >tokens of </motion.h1>
         <motion.p className='para'
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
