@@ -8,7 +8,7 @@
     padding-left: 3rem;
     margin-top: 2rem;
     font-family: sans-serif;
-    height: 80vh;
+    height: 120vh;
 }
 
 .leftArea{
@@ -16,7 +16,7 @@
 }
 
 .crypto-heading,.realTime-heading{
-    font-size: 6.5rem;
+    font-size: 6 rem !important;
     font-weight: 700;
     margin: 0;
 }
@@ -72,7 +72,7 @@
 @media screen and (max-width:1175px) {
 
     .crypto-heading,.realTime-heading{
-        font-size: 5.5rem;
+        font-size: 9rem;
         font-weight: 700;
         margin: 0;
     }

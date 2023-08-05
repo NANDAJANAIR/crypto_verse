@@ -2,12 +2,9 @@ import React from 'react'
 import Header from '../components/Common/Header'
 import MainComponent from '../components/LandingPage/MainComponent'
 import Footer from '../components/Common/Footer';
-import dashboarimg from '../assets/crypto1.png';
-import coinPageimg from '../assets/COSMOS.png';
-import comparePageimg  from '../assets/cryptoman.png';
-import watchlistPageimg  from '../assets/black1.png';
-import coinsfalling from '../assets/coinieee.png';
-import AppDetails from '../components/LandingPage/AppDetails';
+import firstimage from '../assets/firstimage.png';
+import thirdimage  from '../assets/thirdimage.png';
+import lastimage from '../assets/lastimage.png';
 import Carousel from '../components/Carousel';
 
 
@@ -21,15 +18,15 @@ function HomePage() {
     <div>
       <Header/>
       <MainComponent/>
-      <img className="mainsection" src={coinPageimg}></img>
+      <img className="mainsection" src={firstimage}></img>
+     
+      
+      <img className="mainsection" src ={thirdimage}></img>
       <Carousel/>
-      <section className="mainsection">
-      <img className="mainsection" src ={comparePageimg}></img>
-      </section>
-      <section className="mainsection">
-      <img className="mainsection" src={comparePageimg}></img>
-      </section>
-      <img className="mainsection" src={coinsfalling}></img>
+      
+      
+      
+      <img className="mainsection" src={lastimage}></img>
 
       <Footer/>
     </div>

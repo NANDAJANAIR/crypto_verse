@@ -34,7 +34,7 @@
 .link{
     text-decoration: none;
     color: var(--grey);
-    font-size: 1.1rem;
+    font-size: 32px;
     margin-right: 1rem;
  } 
 
@@ -50,6 +50,9 @@
 .drawer-links p{
     font-size: 1rem !important;
     margin: 0.25rem;
+}
+Button{
+    font-size: 32px;
 }
 
 @media screen and (max-width:1020px) {
@@ -70,6 +73,7 @@
     }
 
 }
+
 
 @media screen and (max-width:800px) {
     .navbar{

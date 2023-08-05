@@ -51,7 +51,7 @@ function Header() {
           <Link className='link' to='/'>Home</Link>
           <Link className='link' to='/compare'>Compare</Link>
           <Link className='link' to='/watchlist'>View</Link>
-          <Button text ={"DashBoard"}/>
+          <Button text ={"Overview"}/>
         </div>
         <div className='side-drawer'>
           <TemporaryDrawer/>
