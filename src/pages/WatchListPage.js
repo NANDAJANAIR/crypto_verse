@@ -29,7 +29,6 @@ function WatchListPage() {
     if (coinIds) {
       const markedCoins = FullCoins.filter((coin) => coinIds.includes(coin.id));
       setWatchListCoins(markedCoins);
-      console.log(markedCoins);
     }
     setIsLoading(false);
   }
@@ -61,7 +60,7 @@ function WatchListPage() {
           ) : (
             <div style={{ height: "95vh" }}>
               <Header />
-              <Tabs coins={watchListCoins} handleRemove={handleRemove} />
+              <Tabs coins = {watchListCoins} handleRemove={handleRemove} />
               <Footer/>
             </div>
           )}

@@ -10,7 +10,6 @@ function Header() {
   const [darkMode, setDarkMode] = useState(
     localStorage.getItem("theme") === "dark" ? true : false
   );
-  console.log(darkMode);
 
   useEffect(() => {
     if (localStorage.getItem("theme") === "light") {

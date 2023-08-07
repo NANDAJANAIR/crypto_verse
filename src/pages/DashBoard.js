@@ -28,7 +28,7 @@ function DashBoardPage() {
     let filtered = crypto.filter((item)=> item.name.toLowerCase().includes(e.target.value.toLowerCase()) ||
     item.symbol.toLowerCase().includes(e.target.value.toLowerCase()) );
     setFiltered(filtered)
-    console.log(filtered);
+
   }
 
   
@@ -42,6 +42,7 @@ function DashBoardPage() {
     setCrypto(coins);
     setCurrPage(coins.slice(0,10));
     setIsLoading(false);
+    console.log(coins)
   }
 
   return (

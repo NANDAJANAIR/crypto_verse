@@ -13,8 +13,8 @@ function Button({text,outlined}) {
         <RWebShare
         data={{
           text:"A CryptoApp Where you Can track Crypto Coins Live!!!!",
-          url:"https://crypto-tracker-app-one.vercel.app/",
-          title:"ShemeerCoder-01"
+          url:"https://crypto-verse-tan.vercel.app/",
+          title:"Nandaja"
         }}
         >
           <button onClick={()=> navigate('/dashboard')} className='outlined-btn'>{text}</button>
